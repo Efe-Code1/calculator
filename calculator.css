@@ -77,3 +77,10 @@ box-shadow: 2px 2px 5px grey;
     background-color: blue;
     color: white;
 }
+
+
+@media screen and (max-width:1000px) {
+  .container{
+    width: 300px;
+  }
+}

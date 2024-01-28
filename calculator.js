@@ -41,3 +41,10 @@ console.log(evaluate(allInputs));
 clearBtn.addEventListener('click', ()=> {
     resultBox.innerHTML = "0";
 })
+
+
+// var click = document.querySelectorAll(".button");
+
+// click.onclick = function(){
+//   this.classList.toggle('buttonClick');
+// }
