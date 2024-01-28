@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(to bottom, skyblue, transparent);
+}
+
+.obaro{
+    border: 2px solid blueviolet;
+    position:absolute;
+    left:10;
+    padding-top: 10px;
+    height:75px;
+    width:95px;
+    animation: drive2 infinite 8s;
+}
+
+.Dietake{
+    border: 2px solid red;
+    position:absolute;
+    left:10;
+    padding-top: 10px;
+    padding-left: 10px;
+    height:75px;
+    width:115px;
+    animation: drive3 infinite 8s;
+}
+
+.o{
+    border: 2px solid green;
+    position:absolute;
+    left:50%;
+    padding-top: 10px;
+    height:75px;
+    width:95px;
+    animation: drive4 infinite 8s;
+}
+
+.d{
+    border: 2px solid gold;
+    position:absolute;
+    left:10;
+    top: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height:75px;
+    width:115px;
+    animation: drive5 infinite 8s;
+}
+
+@keyframes drive2{
+    from{ transform: translatex(-100px)}
+    to{ transform: translatex(1500px)}
+ }
+
+ @keyframes drive3{
+    from{ transform: translatey(-100px)}
+    to{ transform: translatey(1500px)}
+ }
+
+ @keyframes drive4{
+    from{ transform: translatey(1500px)}
+    to{ transform: translatey(-550px)}
+ }
+
+ @keyframes drive5{
+    from{ transform: translatex(1500px)}
+    to{ transform: translatex(-550px)}
+ }

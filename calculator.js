@@ -43,8 +43,7 @@ clearBtn.addEventListener('click', ()=> {
 })
 
 
-// var click = document.querySelectorAll(".button");
+var AC = document.getElementById("clear");
+AC.style.color = "red";
 
-// click.onclick = function(){
-//   this.classList.toggle('buttonClick');
-// }
+
