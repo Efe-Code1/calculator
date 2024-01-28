@@ -10,7 +10,7 @@ body {
   height: 530px;
   border-radius: 10px;
   background: lightgray;
-  margin: 20px auto;
+  margin: 80px auto;
   padding: 22px 22px;
   display: flex;
   flex-direction: column;
@@ -57,8 +57,8 @@ body {
 }
 
 
-.click{
-  background-color: red;
+.container .buttons .button:hover{
+  font-size: x-large;
 }
 
 
