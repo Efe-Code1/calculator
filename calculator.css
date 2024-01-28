@@ -58,10 +58,8 @@ body {
 
 
 .container .buttons .button:hover{
-  font-size: x-large;
+  zoom:90%;
 }
-
-
 
 /*  UTILITIES*/
 .container .buttons .zero {
