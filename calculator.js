@@ -43,6 +43,7 @@ clearBtn.addEventListener('click', ()=> {
 })
 
 
+
 var AC = document.getElementById("clear");
 AC.style.color = "red";
 
